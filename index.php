@@ -8,7 +8,8 @@ require_once("database.php");
 require_once("game.php");
 
 define('BOT_NAME', 'FoxyHuntBot');
-define('BOT_TOKEN', '1877569645:AAFgRqgWhMgSQx6465-NWSB91igGqLKJHbU');
+//Insert token
+define('BOT_TOKEN', '<TOKEN>');
 define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
 date_default_timezone_set('Europe/Moscow');
 
